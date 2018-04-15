@@ -1,0 +1,24 @@
+.container {
+  width: 80%;
+  margin: 0 auto; }
+
+.image {
+  float: left;
+  width: 20%; }
+  .image img {
+    height: auto;
+    width: auto;
+    max-width: 200px; }
+
+.text {
+  float: right;
+  width: 80%;
+  background: #fafafa; }
+
+ul {
+  list-style-type: none;
+  display: inline-block; }
+  ul li {
+    display: inline; }
+    ul li a {
+      text-decoration: none; }
