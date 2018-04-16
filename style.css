@@ -8,7 +8,7 @@
   .image img {
     height: auto;
     width: auto;
-    max-width: 200px; }
+    /* max-width: 200px; */ }
 
 .text {
   float: right;
