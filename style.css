@@ -1,18 +1,6 @@
 .container {
   width: 80%;
-  margin: 0 auto; }
-
-.image {
-  float: left;
-  width: 20%; }
-  .image img {
-    height: auto;
-    width: auto;
-    /* max-width: 200px; */ }
-
-.text {
-  float: right;
-  width: 80%;
+  margin: 0 auto;
   background: #fafafa; }
 
 ul {
