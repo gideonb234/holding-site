@@ -3,10 +3,24 @@
   margin: 0 auto;
   background: #fafafa; }
 
+@media (max-width: 768px) {
+  .row:first-child {
+    margin-top: 50px; } }
+
 ul {
   list-style-type: none;
-  display: inline; }
+  display: flex;
+  justify-content: center;
+  width: 100%; }
   ul li {
+    flex: 1 1 auto;
     display: inline; }
     ul li a {
-      text-decoration: none; }
+      text-decoration: none;
+      color: #000; }
+      ul li a:hover {
+        color: #000; }
+      ul li a img {
+        position: relative;
+        bottom: 2.5px;
+        right: 5px; }
